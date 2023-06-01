@@ -31,3 +31,11 @@ arco_g, _ = quadgk(x -> sqrt(1 + (g_prime_num(x))^2), c, d)
 perimetro = arco_f + arco_g
 
 println("El perímetro de la región encerrada es ", perimetro)
+
+Calcular el perímetro de la región encerrada entre las gráficas de las funciones f f(x) = sqrt(x-2)  y g(x) = x^2-6x+8.
+
+using SymPy
+@vars x
+# Definimos las funciones
+f(x) = sqrt(x-2)
+g(x) = x^2-6x+8

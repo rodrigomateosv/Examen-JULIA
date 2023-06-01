@@ -1,0 +1,1 @@
+Calcular el perímetro de la región encerrada entre las gráficas de las funciones f f(x) = sqrt(x-2)  y g(x) = x^2-6x+8.
